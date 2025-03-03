@@ -1,0 +1,196 @@
+body{
+    margin: auto 0;
+}
+.head ul{
+    list-style: none;
+    display: flex;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34vh;
+}
+
+.topmenu {
+    gap: 2vh;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.logopic {
+    width: 14vh;
+    height: 10vh;
+    object-fit: cover;
+}
+.loginside {
+    gap: 4vh;
+}
+.bodypart{
+    width: 100%;
+    background-color: gainsboro;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25vh;
+    padding-top: 6vh;
+    box-sizing: border-box;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2vh;
+    /* object-fit: contain; */
+}
+.productonsid {
+     position: relative;
+     bottom: 12vh;
+}
+.geet {
+    font-size: 7vh;
+    font-weight: bolder;
+}
+.shopnowbtn{
+    background-color: black;
+    color:  gainsboro;
+    border: none;
+    padding: 1vh 3vh;
+}
+.cs{
+    background-color: black;
+    color:  gainsboro;
+    border: none;
+    padding: 1vh 3vh;
+}
+.one{
+    height: 30vh;
+    width: 30vh;
+    background-image: url("portrait-serious-black-woman-with-mockup-studio-background-advertising-space-product-placement-strong-confident-proud-afro-woman-small-business-startup-marketing-company-owner_590464-100142.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.two {
+    height: 21vh;
+    width: 30vh;
+    background-image: url("photo-1611967164521-abae8fba4668.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.three{
+    height: 30vh;
+    width: 30vh;
+    background-image: url("istockphoto-1673643982-612x612.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.lastpart{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+.lastpart div button {
+    background-color: black;
+    color:  gainsboro;
+    border: none;
+    padding: 1vh 3vh;
+}
+.blank{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+    /* display: none; */
+}
+.popup {
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    bottom: 0;
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50vh;
+}
+.logopopup {
+    width: 14vh;
+    height: 10vh;
+    object-fit: cover;
+}
+.searchinput {
+    width: 60vh;
+    height: 5vh;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 0vh 3vh;
+    margin-bottom: 0vh;
+    position: relative;
+}
+.ser {
+    text-align: center;
+    margin-bottom: -2vh;
+}
+.btnright{
+    position: relative;
+    right: 5vh;
+    border-radius: 50%;
+    background-color: black;
+    color:  gainsboro;
+    border: none;
+    height: 4vh;
+}
+.fa-xmark {
+    font-size: 10vh;
+}
+.foralpoping {
+    display: none;
+}
+.bodyall {
+    /* display: none; */
+}
+.productdiv{
+    background-color: rgba(211, 211, 211, 0.164);
+    text-align: center;
+    width: 41vh;
+}
+.productimg {
+    height: 30vh;
+    width: 100%;
+    border: none 1px ;
+    background-color: rgba(211, 211, 211, 0.26);
+}
+.productname {
+    font-size: 3vh;
+    margin-bottom: -2vh;
+    font-weight: bolder;
+
+}
+.aboutalitt {
+    margin-bottom: 1vh;
+}
+.forb4pric {
+    margin-right: 4vh;
+}
+.addtocart {
+    background-color: gainsboro;
+    color:  black; 
+    border: solid 1px black;
+    border-radius: 20px;
+    height: 6vh;
+    width: 19vh;
+    font-size: 2.5vh;
+
+}
+.fa-star {
+    margin-bottom: 2vh;
+}
+.secondbody {
+    padding: 2vh 6vh;
+    flex-wrap: wrap;
+    display: none;
+    justify-content: center;
+    gap: 5vh;
+}
